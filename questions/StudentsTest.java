@@ -1,3 +1,5 @@
+package questions;
+
 import itsc2214.*;
 
 /**
@@ -8,6 +10,7 @@ import itsc2214.*;
  * @author TODO Put Your Name in the author tag
  * @version Mar 30, 2026
  */
-public class Questions {
+@SuppressWarnings("unused")
+public class StudentsTest {
 
 }
