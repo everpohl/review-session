@@ -1,0 +1,5 @@
+Write a recursive function that computes some numeric value, similar to Fibonacci (e.g., x364) or Lucas number (e.g., x1216).
+Write a recursive function that checks some property of a string similar to isPalindrome (e.g., x1468) or Recursion Scrambler (e.g., x495), or counts times something appears in a string (e.g. x171).
+Use a stack to implement some algorithm like reversing a collection (e.g., x1206, x1546, x1547), a string (e.g., x509), or evaluating a postfix notation (e.g., x508).
+Write a routine that takes a queue and a second parameter and perform some operation on the queue (e.g., x460, x1005, x1006). For example, remove the first n elements (e.g., x1513, x1002, x1003, x1004), remove the last n elements, cycle the queue by n positions (cycle means remove the front element and add it at the end), or remove consecutive elements in the queue.
+Write a routine that receives a collection (array or ArrayList) of strings and uses a HashMap to compute some property of the strings. Example include: count the number of duplicate strings, or return the most repeated string.
