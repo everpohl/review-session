@@ -22,11 +22,11 @@ public class Students implements ReviewSessionQuestions {
      * Return the sum of two nonnegative integers using recursion.
      *
      * You may use any recursive strategy that produces the correct result.
-     * The returned value should match the result of {@code x + y}.
+     * The returned value should match the result of x + y.
      * 
      * @param x a nonnegative integer
      * @param y a nonnegative integer
-     * @return the sum of {@code x} and {@code y}
+     * @return the sum of x and y
      */
     @Override
     public int add(int x, int y) {
@@ -34,16 +34,16 @@ public class Students implements ReviewSessionQuestions {
     }
 
     /**
-     * Recursively count how many times {@code substr} appears in {@code text}.
+     * Recursively count how many times substr appears in text.
      *
-     * Overlapping matches do count. For example, {@code "aa"} appears 3 times
-     * in {@code "aaaa"}.
+     * Overlapping matches do count. For example, "aa" appears 3 times in
+     * "aaaa".
      *
-     * You may assume {@code substr} is not empty.
+     * You may assume substr is not empty.
      * 
      * @param text the text to search
      * @param substr the non-empty substring to count
-     * @return the number of occurrences of {@code substr} in {@code text}
+     * @return the number of occurrences of substr in text
      */
     @Override
     public int countString(String text, String substr) {
@@ -53,8 +53,8 @@ public class Students implements ReviewSessionQuestions {
     /**
      * Return the list that remains after removing the first two nodes.
      *
-     * If the list has 0 or 1 nodes, return {@code null}. Otherwise, return the
-     * node that was originally third in the list.
+     * If the list has 0 or 1 nodes, return null. Otherwise, return the node
+     * that was originally third in the list.
      */
     @Override
     public <E> Node<E> removeFirst2(Node<E> elements) {
@@ -62,10 +62,10 @@ public class Students implements ReviewSessionQuestions {
     }
 
     /**
-     * Remove up to the first {@code n} values from the front of the queue.
+     * Remove up to the first n values from the front of the queue.
      *
-     * If {@code n} is 0, leave the queue unchanged. If {@code n} is larger
-     * than the queue size, remove all values currently in the queue.
+     * If n is 0, leave the queue unchanged. If n is larger than the queue
+     * size, remove all values currently in the queue.
      */
     @Override
     public void removeFirstN(QueueADT<Integer> values, int n) {
@@ -76,8 +76,8 @@ public class Students implements ReviewSessionQuestions {
      * Count duplicate entries in the list using a map-based approach.
      *
      * A duplicate is any repeated occurrence after the first appearance of a
-     * word. For example, the list {@code ["a", "a", "a", "b", "b"]} contains
-     * 3 duplicates.
+     * word. For example, the list ["a", "a", "a", "b", "b"] contains 3
+     * duplicates.
      */
     @Override
     public int countDuplicates(List<String> words) {
